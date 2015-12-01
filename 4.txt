@@ -20,7 +20,7 @@ i++;
 
 return i;
 
-}
+}ytrytr
 
 int wystap(FILE *plik,char slowo[30])
 
