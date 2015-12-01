@@ -1,28 +1,28 @@
-    /*
-     * Program kopiuje zawartoœæ pliku tekstowego na stdout
+    /*askjdhaskjdhasdkjsahdkjasdh
+     * Program kopiuje zawartoÅ›Ä‡ pliku tekstowego na stdout
      */fdsafdasfdsa
      
     #include <stdio.h>
     #define N 32
     int main(void)
     {
-    	char nazwapliku[N]; /* bufor na nazwê pliku */
+    	char nazwapliku[N]; /* bufor na nazwÄ™ pliku */
     	FILE *fp;
     	int c;
      
-    	printf("Podaj nazwe pliku (uwaga: mniej ni¿ %d znaki):\n", N);
+    	printf("Podaj nazwe pliku (uwaga: mniej niÅ¼ %d znaki):\n", N);
     	scanf("%s", nazwapliku);
      
-    	if( (fp = fopen(nazwapliku,"r")) == NULL) /* czy da³o siê otworzyæ? */
+    	if( (fp = fopen(nazwapliku,"r")) == NULL) /* czy daÅ‚o siÄ™ otworzyÄ‡? */
     	{
-    		/* komunikat o b³êdzie wypiszemy na stderr */
+    		/* komunikat o bÅ‚Ä™dzie wypiszemy na stderr */
     		fprintf(stderr,"! Nie moge otworzyc pliku %s\n", nazwapliku);
-    		return(-1); /* koñczymy program, zwracaj¹c nietypow¹ wartoœæ */
+    		return(-1); /* koÅ„czymy program, zwracajÄ…c nietypowÄ… wartoÅ›Ä‡ */
     	}
      
-    	/* kopiujemy znak po znaku, a¿ do napotkania koñca pliku */
+    	/* kopiujemy znak po znaku, aÅ¼ do napotkania koÅ„ca pliku */
     	while( (c = getc(fp)) != EOF )
-    		putc(c, stdout); /* równowa¿nie: putchar(c) */
+    		putc(c, stdout); /* rÃ³wnowaÅ¼nie: putchar(c) */
      
     	fclose(fp);
     	return(0);
