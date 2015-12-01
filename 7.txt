@@ -27,7 +27,7 @@ RysujSzachownice();
 gotoxy(45,3);
 
 printf("Szachownica :-)");
-
+tretre
 getch();
 
 clrscr();
