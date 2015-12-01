@@ -1,4 +1,4 @@
-#include <stdio.h> asjdhaskjdhaskjdhasdkjhasd
+#include <stdio.h> asjdhaskjdhaskjdhasdkjhasdc     asoiduasoiduasusoiudoaisdu
 
 int slowa(FILE *plik)
 
