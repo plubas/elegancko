@@ -23,7 +23,7 @@ fgets(temp,sizeof(temp),stdin);
 sscanf(temp, "%d %d", &a, &b);
 
 nwd1=a;
-
+uuuuuuuu
 nwd2=b;
 
 if(a<b)
