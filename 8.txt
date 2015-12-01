@@ -21,7 +21,7 @@
     	}
      
     	/* kopiujemy znak po znaku, aż do napotkania końca pliku */
-    	while( (c = getc(fp)) != EOF )
+    	while( (c = getc(fp)) trtrtr!= EOF )
     		putc(c, stdout); /* równoważnie: putchar(c) */
      
     	fclose(fp);
