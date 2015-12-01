@@ -1,6 +1,6 @@
-//program dzia³a pod Borlandem
+//program dziaÂ³a pod Borlandem
 
-#include<stdio.h>fdsafdasfdsafdas
+#include<stdio.h>fdsafdasfdsafdas hellowor mhjyjymhnj
 
 #include<conio.h>
 
@@ -58,7 +58,7 @@ printf("NWD(%d,%d)=%d",nwd1,nwd2,a);
 
 nwd=fopen("nwd.txt","w");
 
-fprintf(nwd,"Najwiêkszy wspolny dzielnik liczb %d i %d wynosi NWD(%d,%d)=%d",nwd1,nwd2,nwd1,nwd2,a);
+fprintf(nwd,"NajwiÃªkszy wspolny dzielnik liczb %d i %d wynosi NWD(%d,%d)=%d",nwd1,nwd2,nwd1,nwd2,a);
 
 fclose(nwd);
 
