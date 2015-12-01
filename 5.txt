@@ -1,0 +1,47 @@
+#include <stdio.h>
+
+#include <math.h>
+
+main()da
+fdsafdasfdsaeafdsa
+{
+
+int w,l,j,k,i=0,p=0;
+
+printf("Podaj liczbe ");
+
+scanf("%d",&k);
+
+w=k;
+
+while(k>=1)
+
+{
+
+k=k/10;
+
+p++;
+
+}
+
+k=w;
+
+while(k>=1)
+
+{
+
+j=k/10;
+
+l=k%10;
+
+p--;
+
+i+=l*(pow(10,p));
+
+k=j;
+
+}
+
+printf("%d\n",i);
+
+}
