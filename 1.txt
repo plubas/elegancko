@@ -10,7 +10,7 @@ main()
 
 {
 
-char operator;
+char operator;ytyt
 
 float value1, value2;
 
