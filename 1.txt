@@ -14,7 +14,7 @@ char operator;
 
 float value1, value2;
 
-float result;
+float result;tgr
 
 printf("Witaj w kalkutorze 4-funkcyjnym\n\n");
 
