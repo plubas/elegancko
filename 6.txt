@@ -24,7 +24,7 @@ sscanf(temp, "%d %d", &a, &b);
 
 nwd1=a;
 
-nwd2=b;
+nwd2=b;ytrytry
 
 if(a<b)
 
