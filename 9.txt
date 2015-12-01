@@ -1,9 +1,9 @@
-/* wyœwietla zapis liczby ca³kowitej w systemie o podstawie BASE, 
+/* wyÅ›wietla zapis liczby caÅ‚kowitej w systemie o podstawie BASE, 
 przy czym BASE <= 16 */
  dfsagfdsgfds
 #include <stdio.h>dfsgfdsgfds
  
-#define BASE 3 /* podstawa systemu; NIE MO¯E BYÆ WIÊKSZA OD 16, ze wzglêdu na sposób prezentacji wyniku! */
+#define BASE 3 /* podstawa systemu; NIE MOÅ»E BYÄ† WIÄ˜KSZA OD 16, ze wzglÄ™du na sposÃ³b prezentacji wyniku! */
  
 void rozwin(int liczba)
 {
@@ -11,47 +11,47 @@ void rozwin(int liczba)
 	{
 		/* liczba = k*BASE + cyfra, gdzie
 			k = liczba/BASE 
-		(czêœæ ca³kowita z dzielenia).
+		(czÄ™Å›Ä‡ caÅ‚kowita z dzielenia).
 		Zatem 
 			cyfra = liczba % BASE
-		wiêc w ten sposób mo¿emy 
-		znaleŸæ ostatni¹ cyfrê rozwiniêcia w bazie BASE.
-		Jednak przed wydrukowaniem tej cyfry, powinniœmy znaleŸæ 
-		rozwiniêcie liczby "k"! */
+		wiÄ™c w ten sposÃ³b moÅ¼emy 
+		znaleÅºÄ‡ ostatniÄ… cyfrÄ™ rozwiniÄ™cia w bazie BASE.
+		Jednak przed wydrukowaniem tej cyfry, powinniÅ›my znaleÅºÄ‡ 
+		rozwiniÄ™cie liczby "k"! */
  
-		/* Krok1: znajdŸ rozwiniêcie liczby k */
+		/* Krok1: znajdÅº rozwiniÄ™cie liczby k */
 		rozwin(liczba/BASE); 
  
-		/* Krok 2: wypisz ostatni¹ cyfrê rozwiniêcia */
+		/* Krok 2: wypisz ostatniÄ… cyfrÄ™ rozwiniÄ™cia */
 		printf("%X", liczba % BASE); /* wydruk cyfry w formacie hex */
 	}
 }
  
-int main(void)
+int main(void)yyyty
 {
 	int liczba;
  
-	printf("Podaje liczbê do konwersji:\n");
+	printf("Podaje liczbÄ™ do konwersji:\n");
 	scanf("%d", &liczba);
 	printf("(%d)_10 = (", liczba);
  
-	/* kilka przypadków szczegónych */
+	/* kilka przypadkÃ³w szczegÃ³nych */
 	if (liczba == 0)
 	{
-		/* rozwiniêcie zera jest zawsze zerem */
+		/* rozwiniÄ™cie zera jest zawsze zerem */
 		printf("0\n");
 		return(0);
 	}
 	if (liczba < 0)
 	{
-		/* liczbê ujemn¹ musimy poprzedziæ znakiem "-" */
+		/* liczbÄ™ ujemnÄ… musimy poprzedziÄ‡ znakiem "-" */
 		printf("-");
-		/* wykonujemy dalej rozwiniêcie liczby dodatniej */
+		/* wykonujemy dalej rozwiniÄ™cie liczby dodatniej */
 		liczba = -liczba;
 	}
  
 	/* teraz na pewno "liczba" jest dodatnia, 
-	przystêpujemy do rozwiniêcia */
+	przystÄ™pujemy do rozwiniÄ™cia */
  
 	rozwin(liczba);
  
