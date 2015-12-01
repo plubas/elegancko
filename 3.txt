@@ -1,4 +1,4 @@
-//"plik z nazwiskami" i "szukane nazwisko" podajemy jako parametry wywo³ania programu
+//"plik z nazwiskami" i "szukane nazwisko" podajemy jako parametry wywoÂ³ania programu
 
 #include <stdio.h>dsafdsa
 
@@ -19,19 +19,19 @@ if(argc != 2)
 printf("\nNie podales argumentu. Prosze podac parametr: \n");
 
 exit(1);
-
+asdasdasd
 }
 
 dane=fopen(argv[1]; "r");
 
 if(dane==NULL) //brak pliku
-
+oitrukgfmnb
 {
 
 printf("\n.....plik %s nie istnieje \n", bufor);
 
 exit(1);
-
+dfgjdfkljgdklf
 }
 
 else
