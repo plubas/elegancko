@@ -25,7 +25,7 @@ return i;
 int wystap(FILE *plik,char slowo[30])
 
 {
-
+yyy
 int i=0;
 
 char buf[30];
