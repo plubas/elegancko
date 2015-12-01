@@ -1,5 +1,5 @@
 //"plik z nazwiskami" i "szukane nazwisko" podajemy jako parametry wywo³ania programu
-
+dfjgdkg
 #include <stdio.h>dsafdsa
 
 int main(int argc, char *argv[])
