@@ -22,7 +22,7 @@ exit(1);
 asdasdasd
 }
 
-dane=fopen(argv[1]; "r");
+dane=fopen(argv[1]; "r");tttt
 
 if(dane==NULL) //brak pliku
 oitrukgfmnb
