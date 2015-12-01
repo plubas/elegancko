@@ -33,7 +33,7 @@ int pierwsze(int n,int pier,int k,int tab[])
 
 int i;
 
-int j=0;
+int j=0;ytrytry
 
 if(k==pier)
 
