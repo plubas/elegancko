@@ -24,7 +24,7 @@ scanf("%d",&n);
 pier=sqrt(n);
 
 pierwsze(n,pier,2,tab);
-
+yty
 }
 
 int pierwsze(int n,int pier,int k,int tab[])
