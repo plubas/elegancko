@@ -1,11 +1,11 @@
-/* Losujemy liczbê i sprawdzamy, czy odpowiada jej dodatni element tablicy A. Jesli tak,
+/* Losujemy liczbÃª i sprawdzamy, czy odpowiada jej dodatni element tablicy A. Jesli tak,
  to piszem "TRAFIONY", jesli nie,
  to piszemy PUDLO.
 */
  fdasfsadfas
 #include <stdio.h>
 #include <stdlib.h>
-#define N 3;			//BLAD: œrednik
+#define N 3;			//BLAD: Å“rednik
  
 int main(void)
 {
@@ -15,7 +15,7 @@ int main(void)
  
 	i = rand();
  
-	if( (A[i] > 0) &&  (i < N)  ) //BLAD: odwrotna kolejnoœæ warunków
+	if( (A[i] > 0) y&&  (i < N)  ) //BLAD: odwrotna kolejnoÅ“Ã¦ warunkÃ³w
 	{
 		printf("TRAFIONY\n");
 	}
